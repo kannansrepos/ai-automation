@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec tsx src/server.ts",
-    "build": "tsc",
-    "start": "node dist/server.js"
+    "build": "pnpm -r run build",
+    "dev:jira": "pnpm --filter jira-webhook dev",
+    "dev:github": "pnpm --filter github-webhook dev",
+    "dev:gateway": "pnpm --filter api-gateway dev",
+    "dev": "pnpm --parallel -r dev"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,31 @@
+export const CodeExtensions = [
+  '.js',
+  '.ts',
+  '.py',
+  '.json',
+  '.yml',
+  '.yaml',
+  '.sh',
+  '.java',
+  '.go',
+  '.rb',
+  '.cs',
+  '.csproj',
+  '.tsx',
+];
+
+export const LanguageMap = {
+  js: 'javascript',
+  ts: 'typescript',
+  py: 'python',
+  json: 'json',
+  yml: 'yml',
+  yaml: 'yaml',
+  sh: 'sh',
+  java: 'java',
+  go: 'go',
+  rb: 'ruby',
+  csharp: 'cs',
+  csarpProject: 'csproj',
+  react: 'tsx',
+};
